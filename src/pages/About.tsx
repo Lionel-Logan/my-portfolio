@@ -31,7 +31,7 @@ const About = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="p-8 bg-gradient-to-br from-gray-900/50 to-red-900/10 rounded-xl border border-red-900/30"
             >
-              <h2 className="text-3xl font-bold text-white mb-6">Who I Am</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">Who Am I</h2>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
                   I'm Navneet Ranjish Pillai, a passionate developer specializing in game development, 
@@ -286,10 +286,17 @@ const About = () => {
               className="p-6 bg-gradient-to-br from-red-900/20 to-red-800/20 rounded-xl border border-red-500/30"
             >
               <h3 className="text-xl font-bold text-white mb-4">Resume</h3>
-              <button className="w-full flex items-center justify-center p-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
-                <Download size={20} className="mr-2" />
-                Download Resume
-              </button>
+                <a
+                  href="https://drive.google.com/file/d/13mmiHbLY6EI3hOBXfwPsKzI1Vr4CtXFG/view?usp=drive_link" // 🔗 Replace with your actual Drive link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
+                  <button className="w-full flex items-center justify-center p-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
+                    <Download size={20} className="mr-2" />
+                    Download Resume
+                  </button>
+                </a>
               <p className="text-gray-400 text-sm mt-2 text-center">
                 Get a detailed overview of my experience and skills
               </p>
