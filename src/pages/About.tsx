@@ -286,17 +286,31 @@ const About = () => {
               className="p-6 bg-gradient-to-br from-red-900/20 to-red-800/20 rounded-xl border border-red-500/30"
             >
               <h3 className="text-xl font-bold text-white mb-4">Resume</h3>
-                <a
-                  href="https://drive.google.com/file/d/13mmiHbLY6EI3hOBXfwPsKzI1Vr4CtXFG/view?usp=drive_link" // 🔗 Replace with your actual Drive link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full"
-                >
-                  <button className="w-full flex items-center justify-center p-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
-                    <Download size={20} className="mr-2" />
-                    Download Resume
-                  </button>
-                </a>
+                <div className="w-full flex flex-col space-y-4">
+                  <a
+                    href="https://drive.google.com/file/d/13mmiHbLY6EI3hOBXfwPsKzI1Vr4CtXFG/view?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full"
+                  >
+                    <button className="w-full flex items-center justify-center p-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
+                      <Download size={20} className="mr-2" />
+                      Software Engineer
+                    </button>
+                  </a>
+
+                  <a
+                    href="https://drive.google.com/file/d/1A0R2Rg4n52_HhzKLQ3uyw-rT54t96tii/view?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full"
+                  >
+                    <button className="w-full flex items-center justify-center p-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
+                      <Download size={20} className="mr-2" />
+                      Game Developer
+                    </button>
+                  </a>
+                </div>
               <p className="text-gray-400 text-sm mt-2 text-center">
                 Get a detailed overview of my experience and skills
               </p>
