@@ -7,29 +7,40 @@ const Projects = () => {
     {
       id: "devils-reckoning",
       title: "Devils' Reckoning",
-      category: "Game Development",
-      description: "A high-fidelity, story-driven, single-player video game using AI-driven tools to achieve industry standard quality and finish.",
+      category: "Video-Game",
+      description: "A high-fidelity, story-driven, single-player video game that achieves industry standard quality and finish, with zero budget.",
       technologies: ["Unreal Engine 5", "Blueprints", "Rokoko Studio", "Unreal LiveLink"],
       teamSize: 3,
       duration: "3 Months",
-      status: "Completed",
+      status: "Testing",
+      featured: true
+    },
+    {
+      id: "sync-trek",
+      title: "SyncTrek",
+      category: "Mobile Application",
+      description: "Personal AI-powered mobile application, that allows users to generate itineraries based on personal selections, with various hotel, food, and insight recommendations.",
+      technologies: ["Flutter", "Dart", "Python", "FastAPI", "GenAI"],
+      teamSize: 2,
+      duration: "Ongoing",
+      status: "Ongoing",
       featured: true
     },
     {
       id: "trixie",
       title: "Trixie - AI Coding Assistant",
-      category: "AI Development",
+      category: "Chrome Extension",
       description: "An AI-powered personal coding assistant that allows users to clarify doubts, seek help and ask for coding solutions through a Chrome extension.",
       technologies: ["React", "Node.js", "HTML", "CSS"],
       teamSize: 4,
       duration: "1 Day",
       status: "Completed",
-      featured: true
+      featured: false
     },
     {
       id: "autohub",
-      title: "AutoHub - Car Management System",
-      category: "Backend Development",
+      title: "AutoHub",
+      category: "Desktop Application",
       description: "A fully-functional car showroom management desktop application for admins and users to manage company staff, cars, and availability.",
       technologies: ["Java", "MySQL", "JavaFX", "CSS"],
       teamSize: 4,
@@ -40,7 +51,7 @@ const Projects = () => {
     {
       id: "heavy-duty",
       title: "Heavy Duty",
-      category: "Game Development",
+      category: "Video-Game",
       description: "A short horror video game designed using Unity Engine and C# featuring complex and interactive gameplay elements.",
       technologies: ["Unity Engine", "C#"],
       teamSize: 1,
@@ -51,7 +62,7 @@ const Projects = () => {
     {
       id: "sleep-tight",
       title: "Sleep Tight",
-      category: "Game Development",
+      category: "Video-Game",
       description: "A horror video game designed using Unity Engine, showcasing atmospheric gameplay and immersive design elements.",
       technologies: ["Unity Engine", "C#"],
       teamSize: 1,

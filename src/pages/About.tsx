@@ -35,7 +35,7 @@ const About = () => {
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
                   I'm Navneet Ranjish Pillai, a passionate developer specializing in game development, 
-                  backend engineering, and AI applications. Born on December 22, 2004, I bring a fresh 
+                  backend engineering, and AI applications. I bring a fresh 
                   perspective and innovative thinking to every project I undertake.
                 </p>
                 <p>
@@ -44,7 +44,7 @@ const About = () => {
                   that not only meet technical requirements but also provide exceptional user experiences.
                 </p>
                 <p>
-                  Currently pursuing my B.Tech in Computer Science Engineering at KTU, I combine academic 
+                  Currently pursuing my B.Tech in Computer Science Engineering at Govt. Model Engineering College, I combine academic 
                   knowledge with practical experience to deliver industry-standard solutions. My work ranges 
                   from immersive game experiences to robust backend systems and intelligent AI applications.
                 </p>
@@ -70,7 +70,7 @@ const About = () => {
                   </div>
                   <div className="space-y-2">
                     <div className="flex flex-wrap gap-2">
-                      {["Java", "C", "C#", "Python", "C++", "MySQL", "Unreal Engine 5"].map((skill) => (
+                      {["Java", "Python", "C", "C++", "C#", "MySQL", "Unreal Engine 5"].map((skill) => (
                         <span key={skill} className="px-2 py-1 text-sm bg-gray-700/50 text-gray-300 rounded">
                           {skill}
                         </span>
@@ -105,7 +105,7 @@ const About = () => {
                     <p className="text-sm">Game Development</p>
                     <p className="text-sm">Computer Architecture</p>
                     <p className="text-sm">Artificial Intelligence</p>
-                    <p className="text-sm">Web Development</p>
+                    <p className="text-sm">Desktop & Mobile Application Development</p>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@ const About = () => {
                   </div>
                   <h3 className="text-xl font-bold text-white mb-2">12th Grade</h3>
                   <p className="text-gray-300">Toc-H Public School, CBSE</p>
-                  <p className="text-gray-400">Percentage: 86%</p>
+                  <p className="text-gray-400">Percentage: 96%</p>
                 </div>
 
                 <div className="border-l-4 border-gray-500 pl-6">
@@ -171,7 +171,7 @@ const About = () => {
                     <h3 className="text-lg font-bold text-white mb-2">TinkHack 2.0 Finalist</h3>
                     <p className="text-gray-300 mb-2">
                       Finalist in Kerala's largest Gen AI hackathon for the project Trixie, 
-                      an AI-powered coding assistant, organized by TinkerHub (2025)
+                      an AI-powered coding assistant, organized by TinkerHub MEC 2025
                     </p>
                   </div>
                 </div>

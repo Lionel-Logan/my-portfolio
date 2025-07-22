@@ -10,14 +10,14 @@ const ProjectDetail = () => {
   const projectData = {
     "devils-reckoning": {
       title: "Devils' Reckoning",
-      category: "Game Development",
+      category: "Video-Game",
       shortDescription: "A high-fidelity, story-driven, single-player video game",
       fullDescription: "Devils' Reckoning is an ambitious single-player video game that combines cutting-edge technology with compelling storytelling. The project utilizes AI-driven tools and industry-standard development practices to create an immersive gaming experience that meets professional quality standards.",
       technologies: ["Unreal Engine 5", "Blueprints", "Rokoko Studio", "Unreal LiveLink"],
       teamSize: 3,
       duration: "3 Months",
-      myRole: "Game Designer & Developer",
-      status: "Completed",
+      myRole: "Game Designer",
+      status: "Testing",
       challenges: [
         "Implementing AI-driven character behaviors and interactions",
         "Achieving industry-standard visual quality with limited resources",
@@ -27,21 +27,57 @@ const ProjectDetail = () => {
       contributions: [
         "Designed and implemented core gameplay mechanics using Unreal Engine 5",
         "Integrated Rokoko Studio for motion capture and character animation",
-        "Developed AI-driven NPCs with realistic behavior patterns",
+        "Developed in-game mechanics, logic and core features",
         "Collaborated with team members on level design and storytelling elements"
       ],
       features: [
         "High-fidelity graphics powered by Unreal Engine 5",
         "AI-driven character interactions and behaviors",
-        "Immersive storytelling with branching narratives",
-        "Professional-grade motion capture integration",
+        "Immersive storytelling",
+        "Motion capture integration",
         "Optimized performance across different hardware configurations"
       ],
-      githubUrl: "https://github.com/Lionel-Logan", // Replace with actual repo
-      liveUrl: null, // Add if available
+      githubUrl: null, // Replace with actual repo
+      liveUrl: 'https://www.google.com', // Add if available
       images: [
-        "/lovable-uploads/bae9337d-ebb3-43a9-837c-c22e585a9aa8.png", // Sample image
+        "/images/devils-reckoning/poster.jpg",
+        "/images/devils-reckoning/ss1.png",
+        "/images/devils-reckoning/ss4.png",
+        "/images/devils-reckoning/ss6.png" 
       ]
+    },
+    "sync-trek": {
+      title: "SyncTrek",
+      category: "Mobile Application",
+      shortDescription: "Personal AI-powered mobile application, that allows users to generate itineraries based on personal selections, with various hotel, food, and insight recommendations.",
+      fullDescription: "SyncTrek is an AI-powered, personalized mobile application that, on given set of inputs by the user, generates a full, complete itinerary, with individual recommendations on Hotels, Places, Restaurants, Insights, Rules and Foods to explore. Currently in testing phase.",
+      technologies: ["Flutter", "Dart", "Python", "FastAPI", "GenAI"],
+      teamSize: 2,
+      duration: "Ongoing",
+      myRole: "Backend Developer",
+      status: "Ongoing",
+      challenges: [
+        "Implementing AI-driven multi-agenetic behaviors and interactions",
+        "Achieving industry-standard responses with limited resources",
+        "Integrating FastAPI seamlessly to ensure fast, and reliable responses",
+        "Optimizing performance and multi-agent interactions"
+      ],
+      contributions: [
+        "Designed and implemented core backend mechanics using Python FastAPI",
+        "Integrated Gemini API for generative itinerary and individual agentic responses",
+        "Developed multi-agent models for individual processing, logic and core features",
+        "Created a self-implemented server-side architecture for enhanced responses and optimized performance"
+      ],
+      features: [
+        "Multi-model agentic responses",
+        "AI-driven character interactions and behaviors",
+        "Interactive, and visually appealing UI",
+        "Optimized itinerary generation and recommendations",
+        "Optimized performance across different hardware configurations"
+      ],
+      githubUrl: null, // Replace with actual repo
+      liveUrl: 'https://drive.google.com/file/d/1VE-ngWBZ2auhgX6lLXRp8u1UKQNZsJ77/view?usp=sharing', // Add if available
+      images: []
     },
     "trixie": {
       title: "Trixie - AI Coding Assistant",
@@ -62,8 +98,8 @@ const ProjectDetail = () => {
       contributions: [
         "Developed the backend infrastructure for AI processing",
         "Implemented the Chrome extension architecture",
-        "Created APIs for real-time coding assistance",
-        "Collaborated on AI model integration and optimization"
+        "Collaborated Gemini APIs for real-time coding assistance",
+        "Collaborated with teammates for efficiency and teamwork"
       ],
       features: [
         "Real-time coding assistance and suggestions",
@@ -72,11 +108,120 @@ const ProjectDetail = () => {
         "Intuitive user interface for developer workflow",
         "Support for multiple programming languages"
       ],
-      githubUrl: "https://github.com/Lionel-Logan", // Replace with actual repo
+      githubUrl: "https://github.com/Lionel-Logan/Trixie---AI-Chatbot", // Replace with actual repo
       liveUrl: null, // Add Chrome Web Store link if available
-      images: []
+      images: [
+        "/images/trixie/ss5.jpg",
+        "/images/trixie/ss3.jpg",
+        "/images/trixie/ss2.png"
+      ]
     },
-    // Add more projects as needed...
+    "heavy-duty": {
+      title: "Heavy Duty",
+      category: "Video-Game",
+      shortDescription: "A horror/single-player video-game, designed using Unity Engine",
+      fullDescription: "Heavy Duty is a first-person thriller/spooky horror video game. The game features a cinematic depiction of storytelling.",
+      technologies: ["Unity Engine", "C#"],
+      teamSize: 1,
+      duration: "2 Months",
+      myRole: "Game Designer",
+      status: "Completed",
+      challenges: [
+        "Developing a video-game alone",
+        "Using C# and complex math to achieve the desired gameplay features",
+        "Creating an interactive gameplay experience",
+        "Integrating cutscenes",
+        "Developing a game at high school"
+      ],
+      contributions: [
+        "Developed the entire game using Unity Engine and C#",
+        "Implemented gameplay logic"
+      ],
+      features: [
+        "First-person horror/walking simulator",
+        "Powered by Unity Engine",
+        "Branching storyline",
+        "Cinematic depiction of main story"
+      ],
+      githubUrl: null, // Replace with actual repo
+      liveUrl: "https://swiftline-studios.itch.io/heavy-duty", // Add Chrome Web Store link if available
+      images: [
+        "/images/heavy-duty/ss1.png",
+        "/images/heavy-duty/ss2.png",
+      ]
+    },
+    "sleep-tight": {
+      title: "Sleep Tight",
+      category: "Video-Game",
+      shortDescription: "A horror/single-player video-game, designed using Unity Engine",
+      fullDescription: "Sleep Tight is a short horror/thriller video game developed and published by Swiftline Studios which can give you 10-15 mins of gameplay. This game is entirely developed on the Unity Engine and Blender.",
+      technologies: ["Unity Engine", "C#"],
+      teamSize: 1,
+      duration: "1 Months",
+      myRole: "Game Designer",
+      status: "Completed",
+      challenges: [
+        "Developing a video-game in highschool",
+        "Using C# and complex math to achieve the desired gameplay features",
+        "Creating an interactive gameplay experience",
+      ],
+      contributions: [
+        "Developed the entire game using Unity Engine and C#",
+        "Implemented gameplay logic"
+      ],
+      features: [
+        "First-person horror/walking simulator",
+        "Powered by Unity Engine",
+        "10-15 minutes of gameplay",
+        "First ever video-game developed"
+      ],
+      githubUrl: null, // Replace with actual repo
+      liveUrl: "https://swiftline-studios.itch.io/sleep-tight", // Add Chrome Web Store link if available
+      images: [
+        "/images/sleep-tight/ss1.png",
+        "/images/sleep-tight/ss2.png",
+        "/images/sleep-tight/ss3.png",
+        "/images/sleep-tight/ss4.png"
+      ]
+    },
+    "autohub": {
+      title: "AutoHub",
+      category: "Desktop Application",
+      shortDescription: "An all-purpose, car showroom management desktop application",
+      fullDescription: "AutoHub is an all-purpose car shAutoHub is a comprehensive Car Showroom Management System designed to streamline operations for car dealerships and showrooms. The system provides a robust platform for managing vehicle inventory, showroom operations, employee management, and customer interactions across multiple locations.",
+      technologies: ["Java", "MySQL", "JavaFX", "CSS"],
+      teamSize: 4,
+      duration: "2 Months",
+      myRole: "Backend Developer",
+      status: "Completed",
+      challenges: [
+        "Developing a fully-functional database management software",
+        "Integrating MySQL for encryption, and CRUD operations",
+        "Creating an intuitive user interface for ease of use",
+        "Ensuring real-time response and reliability"
+      ],
+      contributions: [
+        "Developed the backend infrastructure for processing and performing CRUD operations",
+        "Implemented the desktop application architecture",
+        "Collaborated MySQL and legacy Java, and JavaFX technologies to create a robust software",
+        "Created and implemented various encryption and database functionalities"
+      ],
+      features: [
+        "Separate interfaces for Admins and Users (Managers/Employees)",
+        "Add, update, delete, and view car inventory across multiple showrooms",
+        "Comprehensive staff management with role-based permissions",
+        "Multi-location support with detailed showroom management",
+        "Secure binary file system with automatic database synchronization",
+        "Custom .dbm file system for seamless data portability"
+      ],
+      githubUrl: "https://github.com/Lionel-Logan/AutoHub", // Replace with actual repo
+      liveUrl: null, // Add Chrome Web Store link if available
+      images: [
+        "/images/autohub/ss3.png",
+        "/images/autohub/ss1.png",
+      ]
+    },
+
   };
 
   const project = projectData[id as keyof typeof projectData];

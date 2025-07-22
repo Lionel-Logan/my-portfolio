@@ -26,12 +26,9 @@ const Index = () => {
           >
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
               <span className="bg-gradient-to-r from-white via-red-100 to-red-300 bg-clip-text text-transparent">
-                Navneet Ranjish
+                Navneet Ranjish Pillai
               </span>
               <br />
-              <span className="bg-gradient-to-r from-red-400 via-red-500 to-red-600 bg-clip-text text-transparent">
-                Pillai
-              </span>
             </h1>
           </motion.div>
 
@@ -41,7 +38,7 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl sm:text-2xl text-gray-300 mb-8 leading-relaxed"
           >
-            Game Developer • Backend Engineer • AI Enthusiast
+            Game Developer • Backend Engineer • GenAI Enthusiast
           </motion.p>
 
           <motion.p
@@ -123,7 +120,7 @@ const Index = () => {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Game Development</h3>
               <p className="text-gray-300 leading-relaxed">
-                Creating immersive gaming experiences using Unity Engine and C#, 
+                Creating immersive gaming experiences using Unreal Engine 5, 
                 with expertise in gameplay programming and AI-driven mechanics.
               </p>
             </motion.div>
@@ -140,7 +137,7 @@ const Index = () => {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Backend Development</h3>
               <p className="text-gray-300 leading-relaxed">
-                Building scalable backend solutions with Java, Node.js, and modern frameworks, 
+                Building scalable backend solutions with Java, Python, FastAPI, and modern frameworks, 
                 ensuring robust and efficient server-side architecture.
               </p>
             </motion.div>
@@ -158,7 +155,7 @@ const Index = () => {
               <h3 className="text-2xl font-bold text-white mb-4">AI Development</h3>
               <p className="text-gray-300 leading-relaxed">
                 Developing intelligent systems and AI-powered applications, 
-                with experience in machine learning and automated problem-solving.
+                with experience in Generative AI and automated problem-solving.
               </p>
             </motion.div>
           </div>
