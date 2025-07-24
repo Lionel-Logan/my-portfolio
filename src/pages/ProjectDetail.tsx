@@ -38,7 +38,7 @@ const ProjectDetail = () => {
         "Optimized performance across different hardware configurations"
       ],
       githubUrl: null, // Replace with actual repo
-      liveUrl: 'https://www.google.com', // Add if available
+      liveUrl: 'https://devilsreckoning.vercel.app', // Add if available
       images: [
         "/images/devils-reckoning/poster.jpg",
         "/images/devils-reckoning/ss1.png",
