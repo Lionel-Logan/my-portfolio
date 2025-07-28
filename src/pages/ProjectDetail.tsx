@@ -79,9 +79,42 @@ const ProjectDetail = () => {
       liveUrl: 'https://drive.google.com/file/d/1VE-ngWBZ2auhgX6lLXRp8u1UKQNZsJ77/view?usp=sharing', // Add if available
       images: []
     },
+    "zombie-decimation": {
+      title: "Zombie: Decimation",
+      category: "Video-Game",
+      shortDescription: "A high-fidelity, story-driven, single-player video game",
+      fullDescription: "Zombie: Decimation is a third-person shooter video-game, developed using Unreal Engine",
+      technologies: ["Unreal Engine 4", "Blueprints"],
+      teamSize: 1,
+      duration: "6 Months",
+      myRole: "Game Designer",
+      status: "Open to Development",
+      challenges: [
+        "Implementing character behaviors and interactions",
+        "Achieving industry-standard visual quality with limited resources",
+        "Optimizing performance while maintaining high-fidelity graphics",
+        "Developing a high-fidelity video-game in high school"
+      ],
+      contributions: [
+        "Designed and implemented core gameplay mechanics using Unreal Engine 4",
+        "Developed in-game mechanics, logic and core features",
+        "Worked on level design and storytelling elements"
+      ],
+      features: [
+        "High-fidelity graphics powered by Unreal Engine 4",
+        "Character interactions and behaviors",
+        "Immersive storytelling",
+        "Optimized performance across different hardware configurations"
+      ],
+      githubUrl: 'https://github.com/Lionel-Logan/Zombie-Decimation', // Replace with actual repo
+      liveUrl: null, // Add if available
+      images: [
+        
+      ]
+    },
     "trixie": {
       title: "Trixie - AI Coding Assistant",
-      category: "AI Development",
+      category: "Chrome Extension",
       shortDescription: "An AI-powered personal coding assistant",
       fullDescription: "Trixie is an innovative AI-powered coding assistant delivered through a Chrome extension. It provides real-time coding help, clarifies programming concepts, and offers intelligent suggestions to enhance developer productivity. Built during a hackathon, it demonstrates rapid prototyping and AI integration capabilities.",
       technologies: ["React", "Node.js", "HTML", "CSS", "Chrome Extensions API"],
@@ -143,7 +176,7 @@ const ProjectDetail = () => {
         "Branching storyline",
         "Cinematic depiction of main story"
       ],
-      githubUrl: null, // Replace with actual repo
+      githubUrl: 'https://github.com/Lionel-Logan/HeavyDuty', // Replace with actual repo
       liveUrl: "https://swiftline-studios.itch.io/heavy-duty", // Add Chrome Web Store link if available
       images: [
         "/images/heavy-duty/ss1.png",
@@ -157,7 +190,7 @@ const ProjectDetail = () => {
       fullDescription: "Sleep Tight is a short horror/thriller video game developed and published by Swiftline Studios which can give you 10-15 mins of gameplay. This game is entirely developed on the Unity Engine and Blender.",
       technologies: ["Unity Engine", "C#"],
       teamSize: 1,
-      duration: "1 Months",
+      duration: "1 Month",
       myRole: "Game Designer",
       status: "Completed",
       challenges: [
@@ -175,7 +208,7 @@ const ProjectDetail = () => {
         "10-15 minutes of gameplay",
         "First ever video-game developed"
       ],
-      githubUrl: null, // Replace with actual repo
+      githubUrl: 'https://github.com/Lionel-Logan/SleepTight', // Replace with actual repo
       liveUrl: "https://swiftline-studios.itch.io/sleep-tight", // Add Chrome Web Store link if available
       images: [
         "/images/sleep-tight/ss1.png",

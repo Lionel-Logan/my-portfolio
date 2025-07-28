@@ -27,6 +27,17 @@ const Projects = () => {
       featured: true
     },
     {
+      id: "zombie-decimation",
+      title: "Zombie: Decimation",
+      category: "Video-Game",
+      description: "A  story-driven, single-player zombie/shooter video-game with zero budget.",
+      technologies: ["Unreal Engine 4", "Blueprints"],
+      teamSize: 1,
+      duration: "6 Months",
+      status: "Open to Development",
+      featured: true
+    },
+    {
       id: "trixie",
       title: "Trixie - AI Coding Assistant",
       category: "Chrome Extension",
