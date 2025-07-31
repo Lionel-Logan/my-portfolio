@@ -107,9 +107,13 @@ const ProjectDetail = () => {
         "Optimized performance across different hardware configurations"
       ],
       githubUrl: 'https://github.com/Lionel-Logan/Zombie-Decimation', // Replace with actual repo
-      liveUrl: null, // Add if available
+      liveUrl: 'https://zombiedecimation.vercel.app', // Add if available
       images: [
-        
+        "/images/zombie-decimation/ss3.png",
+        "/images/zombie-decimation/ss7.png",
+        "/images/zombie-decimation/ss4.png",
+        "/images/zombie-decimation/ss2.png",
+        "/images/zombie-decimation/ss5.png"
       ]
     },
     "trixie": {
