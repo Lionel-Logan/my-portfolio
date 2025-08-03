@@ -225,7 +225,7 @@ const ProjectDetail = () => {
       title: "AutoHub",
       category: "Desktop Application",
       shortDescription: "An all-purpose, car showroom management desktop application",
-      fullDescription: "AutoHub is an all-purpose car shAutoHub is a comprehensive Car Showroom Management System designed to streamline operations for car dealerships and showrooms. The system provides a robust platform for managing vehicle inventory, showroom operations, employee management, and customer interactions across multiple locations.",
+      fullDescription: "AutoHub is a comprehensive Car Showroom Management System designed to streamline operations for car dealerships and showrooms. The system provides a robust platform for managing vehicle inventory, showroom operations, employee management, and customer interactions across multiple locations.",
       technologies: ["Java", "MySQL", "JavaFX", "CSS"],
       teamSize: 4,
       duration: "2 Months",
