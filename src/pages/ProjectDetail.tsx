@@ -86,7 +86,7 @@ const ProjectDetail = () => {
       fullDescription: "Zombie: Decimation is a third-person shooter video-game, developed using Unreal Engine",
       technologies: ["Unreal Engine 4", "Blueprints"],
       teamSize: 1,
-      duration: "6 Months",
+      duration: "3 Months",
       myRole: "Game Designer",
       status: "Open to Development",
       challenges: [
