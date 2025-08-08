@@ -16,7 +16,7 @@ const ProjectDetail = () => {
       technologies: ["Unreal Engine 5", "Blueprints", "Rokoko Studio", "Unreal LiveLink"],
       teamSize: 3,
       duration: "3 Months",
-      myRole: "Game Designer",
+      myRole: "Game Designer, Gameplay Programmer, Game Engineer",
       status: "Testing",
       challenges: [
         "Implementing AI-driven character behaviors and interactions",
@@ -54,7 +54,7 @@ const ProjectDetail = () => {
       technologies: ["Flutter", "Dart", "Python", "FastAPI", "GenAI"],
       teamSize: 2,
       duration: "Ongoing",
-      myRole: "Backend Developer",
+      myRole: "Backend Developer, GenAI Engineer",
       status: "Ongoing",
       challenges: [
         "Implementing AI-driven multi-agenetic behaviors and interactions",
@@ -76,7 +76,7 @@ const ProjectDetail = () => {
         "Optimized performance across different hardware configurations"
       ],
       githubUrl: null, // Replace with actual repo
-      liveUrl: 'https://drive.google.com/file/d/1VE-ngWBZ2auhgX6lLXRp8u1UKQNZsJ77/view?usp=sharing', // Add if available
+      liveUrl: 'https://synctrek.vercel.app', // Add if available
       images: []
     },
     "zombie-decimation": {
