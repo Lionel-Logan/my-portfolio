@@ -128,7 +128,7 @@ const About = () => {
                   </div>
                   <h3 className="text-xl font-bold text-white mb-2">B.Tech in Computer Science Engineering</h3>
                   <p className="text-gray-300">Govt. Model Engineering College, KTU</p>
-                  <p className="text-gray-400">CGPA: 9.2</p>
+                  <p className="text-gray-400">CGPA: 9.22</p>
                 </div>
 
                 <div className="border-l-4 border-gray-500 pl-6">
