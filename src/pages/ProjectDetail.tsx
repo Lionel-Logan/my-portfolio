@@ -13,7 +13,7 @@ const ProjectDetail = () => {
       category: "Video-Game",
       shortDescription: "A high-fidelity, story-driven, single-player video game",
       fullDescription: "Devils' Reckoning is an ambitious single-player video game that combines cutting-edge technology with compelling storytelling. The project utilizes AI-driven tools and industry-standard development practices to create an immersive gaming experience that meets professional quality standards.",
-      technologies: ["Unreal Engine 5", "Blueprints", "Rokoko Studio", "Unreal LiveLink"],
+      technologies: ["Unreal Engine 5", "C++", "Blueprints", "Rokoko Studio", "Unreal LiveLink"],
       teamSize: 3,
       duration: "3 Months",
       myRole: "Game Designer, Gameplay Programmer, Game Engineer",
@@ -84,10 +84,10 @@ const ProjectDetail = () => {
       category: "Video-Game",
       shortDescription: "A high-fidelity, story-driven, single-player video game",
       fullDescription: "Zombie: Decimation is a third-person shooter video-game, developed using Unreal Engine",
-      technologies: ["Unreal Engine 4", "Blueprints"],
+      technologies: ["Unreal Engine 4", "C++", "Blueprints"],
       teamSize: 1,
       duration: "3 Months",
-      myRole: "Game Designer",
+      myRole: "Game Designer, Gameplay Programmer, Game Engineer",
       status: "Open to Development",
       challenges: [
         "Implementing character behaviors and interactions",
@@ -114,6 +114,45 @@ const ProjectDetail = () => {
         "/images/zombie-decimation/ss4.png",
         "/images/zombie-decimation/ss2.png",
         "/images/zombie-decimation/ss5.png"
+      ]
+    },
+    "anomaly": {
+      title: "The Transcendence Project : Anomaly",
+      category: "Video-Game",
+      shortDescription: "A first-person, single-player horror video-game",
+      fullDescription: "The Transcendence Project : Anomaly is a retro looking, PS1 era inspired horror walking simulator. Developed as a tie in to Honeyhive Studios' The Transcendence Project, Anomaly tells a new story based on it's world.",
+      technologies: ["Unreal Engine 4", "C++", "Blueprints"],
+      teamSize: 1,
+      duration: "2 Months",
+      myRole: "AI Game Programmer",
+      status: "Completed",
+      challenges: [
+        "Implementing AI behaviors and interactions",
+        "Achieving custom animations and interactions.",
+        "Optimizing performance.",
+        "Voice acted for the main character.",
+        "Implementing data algorithms for efficient AI state tree traversal.",
+        "Developing a high-fidelity video-game in high school"
+      ],
+      contributions: [
+        "Designed and implemented core AI gameplay mechanics using Unreal Engine 4",
+        "Developed in-game mechanics, logic and core features",
+        "Worked on storytelling elements",
+        "Contributed to the design of an efficient algorithm for the AI."
+      ],
+      features: [
+        "Powered by Unreal Engine 4",
+        "Character interactions and behaviors",
+        "Immersive storytelling",
+        "Optimized performance across different hardware configurations"
+      ],
+      githubUrl: null, // Replace with actual repo
+      liveUrl: 'https://emerald-game-development.itch.io/the-transcendence-project-anomaly', // Add if available
+      images: [
+        "/images/anomaly/ss1.png",
+        "/images/anomaly/ss2.png",
+        "/images/anomaly/ss3.png",
+        "/images/anomaly/ss4.png"
       ]
     },
     "trixie": {
@@ -161,7 +200,7 @@ const ProjectDetail = () => {
       technologies: ["Unity Engine", "C#"],
       teamSize: 1,
       duration: "2 Months",
-      myRole: "Game Designer",
+      myRole: "Game Designer, Gameplay Programmer, Game Engineer",
       status: "Completed",
       challenges: [
         "Developing a video-game alone",
@@ -195,7 +234,7 @@ const ProjectDetail = () => {
       technologies: ["Unity Engine", "C#"],
       teamSize: 1,
       duration: "1 Month",
-      myRole: "Game Designer",
+      myRole: "Game Designer, Gameplay Programmer, Game Engineer",
       status: "Completed",
       challenges: [
         "Developing a video-game in highschool",
