@@ -35,7 +35,7 @@ const Projects = () => {
       teamSize: 1,
       duration: "3 Months",
       status: "Open to Development",
-      featured: true
+      featured: false
     },
     {
       id: "anomaly",
@@ -46,7 +46,7 @@ const Projects = () => {
       teamSize: 1,
       duration: "2 Months",
       status: "Completed",
-      featured: true
+      featured: false
     },
     {
       id: "trixie",
@@ -57,7 +57,7 @@ const Projects = () => {
       teamSize: 4,
       duration: "1 Day",
       status: "Completed",
-      featured: false
+      featured: true
     },
     {
       id: "autohub",
@@ -68,7 +68,7 @@ const Projects = () => {
       teamSize: 4,
       duration: "2 Months",
       status: "Completed",
-      featured: false
+      featured: true
     },
     {
       id: "heavy-duty",
